@@ -4,4 +4,4 @@ sudo apt autoremove -y
 sudo apt autoclean -y
 sudo apt install vlc gimp blender timeshift dconf-editor rhythmbox usbguard flameshot timeshift ufw telegram-desktop steghide gnome-tweaks gir1.2-nautilus-3.0 sshfs neofetch python3-tk python-is-python3 nautilus-image-converter macchanger clamav kazam testdisk finger speedtest-cli chkrootkit fail2ban rkhunter -y
 
-sudo rkhunter -s --sk
+sudo rkhunter -c --sk
